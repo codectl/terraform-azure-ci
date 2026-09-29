@@ -1,8 +1,8 @@
-module github.com/cloudnationhq/terraform-azure-pe
+module github.com/codectl/terraform-azure-ci
 
-go 1.26
+go 1.27.1
 
-require github.com/cloudnationhq/az-cn-go-validor v1.19.0
+require github.com/codectl/validor v1.0.0
 
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
